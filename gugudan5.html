@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="kr">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>gugudan5</title>
+</head>
+<body>
+    <h2>구구단 x단 구현하기</h2>
+    <script>
+        var n = Number(prompt("몇 단을 출력할까요?"));
+        document.write( "<h2> 구구단 " + n + "단 출력 </h2><br>");
+        /*
+        var i = 1;
+        while ( i <= 9 ) {
+            document.write ( n + " * " + i + " = " + n * i + "<br>" );
+            i++;
+        } */
+
+        for ( var i = 0; i <= 9; i++ ) {
+            document.write ( n + " * " + i + " = " + n * i + "<br>" );
+        }
+    </script>
+</body>
+</html>
